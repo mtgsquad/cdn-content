@@ -1,0 +1,89 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+</head>
+<body onload="populatePasswords()" translate="no";>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<style>
+  .passwords { 
+    width: 310px;
+    padding-top: 3%;
+    text-align: center;
+    margin: auto;
+  }
+</style>
+
+<script>
+$(document).ready(function() {
+	new ClipboardJS('.digitpass');
+	new ClipboardJS('.alphanumericpass');
+	new ClipboardJS('.numlettersymbol');
+});
+
+function generatePass(length, possible) {
+  var text = "";
+  for (var i = 0; i < length; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  return text;
+}
+
+function populatePasswords() {
+  console.log("Populating password fields. Please wait a moment!")
+
+  $('.digitpass').each(function() {
+  	var password = generatePass("32", "0123456789");
+    $(this).text(password);
+    $(this).attr('data-clipboard-text', password);
+  });
+
+  $('.alphanumericpass').each(function() {
+    var password = generatePass("32", "ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz0123456789");
+    $(this).text(password);
+    $(this).attr('data-clipboard-text', password);
+  });
+
+  $('.numlettersymbol').each(function() {
+    var password = generatePass("32", "ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvxyz0123456789!@#$%^&*()-=");
+    $(this).text(password);
+    $(this).attr('data-clipboard-text', password);
+  });
+}
+
+</script>
+
+<br>
+<center><button onclick="populatePasswords()">New Passwords</button></center>
+
+<div class="passwords">
+<h3> 32 Character Digit Passwords:</h3>
+<div class="digitpass">Populating...</div>
+<div class="digitpass">Populating...</div>
+<div class="digitpass">Populating...</div>
+<div class="digitpass">Populating...</div>
+<div class="digitpass">Populating...</div>
+</div>
+      
+<div class="passwords">
+<h3> 32 Character Alphanumeric Passwords: </h3>
+<div class="alphanumericpass">Populating...</div>
+<div class="alphanumericpass">Populating...</div>
+<div class="alphanumericpass">Populating...</div>
+<div class="alphanumericpass">Populating...</div>
+<div class="alphanumericpass">Populating...</div>
+</div>
+
+
+
+<div class="passwords">
+<h3> Passwords with Numbers, Letters & Symbols:  </h3>
+<div class="numlettersymbol">Populating...</div>
+<div class="numlettersymbol">Populating...</div>
+<div class="numlettersymbol">Populating...</div>
+<div class="numlettersymbol">Populating...</div>
+<div class="numlettersymbol">Populating...</div>
+</div>
+
+
+</body></html>
