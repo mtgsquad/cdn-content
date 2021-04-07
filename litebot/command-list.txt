@@ -1,0 +1,16 @@
+Commands List For LiteBOT:
+- Ticket
+- Say
+- RPS
+- Shop
+- Inventory
+- Buy
+- Balance
+- Give
+- Reset
+- Withdraw
+- Deposit
+- Profile
+- Google Search
+- Discord.JS Docs Search
+- Google Image Scraper
