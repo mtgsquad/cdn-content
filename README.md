@@ -1,5 +1,5 @@
 # 🎉 MTGSquad's CDN
-A Small Little CDN For Your Image Hosting
+A Free CDN Service For Developers To Host, CSS, JavaScript And Images.
 
 ## ✨ How To Use
 Just fork this, make a new folder, named after you of course and then upload your content to it, then make a new PR, and I shall merge it.
