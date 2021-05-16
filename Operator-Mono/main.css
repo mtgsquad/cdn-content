@@ -1,0 +1,59 @@
+/* Default Font */
+@font-face {
+  font-family: 'Operator Mono';
+  src: url(./OperatorMono-Medium.ttf) format(truetype);
+}
+
+/* Light Font */
+@font-face {
+  font-family: 'Operator Mono Light';
+  src: url(./OperatorMono-Light.ttf) format(truetype);
+}
+
+/* XLight Font */
+@font-face {
+  font-family: 'Operator Mono XLight';
+  src: url(./OperatorMono-XLight.ttf) format(truetype);
+}
+
+/* Bold Font */
+@font-face {
+  font-family: 'Operator Mono Bold';
+  src: url(./OperatorMono-Bold.ttf) format(truetype);
+}
+
+/* Book Font */
+@font-face {
+  font-family: 'Operator Mono Book';
+  src: url(./OperatorMono-Book.ttf) format(truetype);
+}
+
+/* Italic Default Font */
+@font-face {
+  font-family: 'Operator Mono Italic';
+  src: url(./OperatorMono-MediumItalic.ttf) format(truetype);
+}
+
+/* Italic Light Font */
+@font-face {
+  font-family: 'Operator Mono Light Italic';
+  src: url(./OperatorMono-LightItalic.ttf) format(truetype);
+}
+
+/* Italic XLight Font */
+@font-face {
+  font-family: 'Operator Mono XLight Italic';
+  src: url(./OperatorMono-XLightItalic.ttf) format(truetype);
+}
+
+/* Italic Bold Font */
+@font-face {
+  font-family: 'Operator Mono Bold Italic';
+  src: url(./OperatorMono-BoldItalic.ttf) format(truetype);
+}
+
+/* Italic Book Font */
+@font-face {
+  font-family: 'Operator Mono Book Italic';
+  src: url(./OperatorMono-BookItalic.ttf) format(truetype);
+}
