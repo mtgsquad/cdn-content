@@ -2,9 +2,8 @@
 A Free CDN Service For Developers To Host, CSS, JavaScript And Images.
 
 ## ✨ How To Use
-Just fork this, make a new folder, named after you, of course, upload your content to it, add `/<your folder name>/ @<your name>` to [CODEOWNERS](CODEOWNERS), then make a new PR, and I shall merge it.
+Just fork this, make a new folder, named after you of course and then upload your content to it, then make a new PR, and I shall merge it.
 then just go the the url: `https://cdn.mtgsquad-dev.com/<your folder name>/<the file name of your content>`
-> NOTE: After you put the directory into [CODEOWNERS](CODEOWNERS), you wont have to make a pull request for that directory again
 
 ## 👵 Why?
 Using a CDN will make your sites content load a lot faster.
