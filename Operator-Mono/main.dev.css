@@ -1,0 +1,119 @@
+/* Default Font */
+@font-face {
+    font-family: 'Operator Mono';
+    src: url(./OperatorMono-Medium.otf) format(opentype);
+}
+
+/* Default SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm';
+    src: url(./OperatorSSm-Medium.otf) format(opentype);
+}
+
+/* Italic Default Font */
+@font-face {
+    font-family: 'Operator Mono Italic';
+    src: url(./OperatorMono-MediumItalic.otf) format(opentype);
+}
+
+/* Italic Default SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm Italic';
+    src: url(./OperatorSSm-MediumItalic.otf) format(opentype);
+}
+
+/* Light Font */
+@font-face {
+    font-family: 'Operator Mono Light';
+    src: url(./OperatorMono-Light.otf) format(opentype);
+}
+
+/* Light SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm Light';
+    src: url(./OperatorSSm-Light.otf) format(opentype);
+}
+
+/* Italic Light Font */
+@font-face {
+    font-family: 'Operator Mono Light Italic';
+    src: url(./OperatorMono-LightItalic.otf) format(opentype);
+}
+
+/* Italic Light SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm Light Italic';
+    src: url(./OperatorSSm-LightItalic.otf) format(opentype);
+}
+
+/* XLight Font */
+@font-face {
+    font-family: 'Operator Mono XLight';
+    src: url(./OperatorMono-XLight.otf) format(opentype);
+}
+
+/* XLight SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm XLight';
+    src: url(./OperatorSSm-XLight.otf) format(opentype);
+}
+
+/* Italic XLight Font */
+@font-face {
+    font-family: 'Operator Mono XLight Italic';
+    src: url(./OperatorMono-XLightItalic.otf) format(opentype);
+}
+
+/* Italic XLight SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm XLight Italic';
+    src: url(./OperatorSSm-XLightItalic.otf) format(opentype);
+}
+
+/* Bold Font */
+@font-face {
+    font-family: 'Operator Mono Bold';
+    src: url(./OperatorMono-Bold.otf) format(opentype);
+}
+
+/* Bold SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm Bold';
+    src: url(./OperatorSSm-Bold.otf) format(opentype);
+}
+
+/* Italic Bold Font */
+@font-face {
+    font-family: 'Operator Mono Bold Italic';
+    src: url(./OperatorMono-BoldItalic.otf) format(opentype);
+}
+
+/* Italic Bold SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm Bold Italic';
+    src: url(./OperatorSSm-BoldItalic.otf) format(opentype);
+}
+
+/* Book Font */
+@font-face {
+    font-family: 'Operator Mono Book';
+    src: url(./OperatorMono-Book.otf) format(opentype);
+}
+
+/* Book SSm Font */
+@font-face {
+    font-family: 'Operator Mono SSm Book';
+    src: url(./OperatorSSm-Book.otf) format(opentype);
+}
+
+/* Italic Book Font */
+@font-face {
+    font-family: 'Operator Mono Book Italic';
+    src: url(./OperatorMono-BookItalic.otf) format(opentype);
+}
+
+/* Italic Book Font */
+@font-face {
+    font-family: 'Operator Mono SSm Book Italic';
+    src: url(./OperatorSSm-BookItalic.otf) format(opentype);
+}
